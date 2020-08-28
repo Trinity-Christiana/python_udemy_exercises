@@ -43,7 +43,13 @@ class TestStringMethods(unittest.TestCase):
         passed = beginner_exercises.ex_001() == 18
         self.assertTrue(passed)
         if passed:
-            self.score = 0
+            self.score += 1
+
+    def test_002(self):
+        passed = beginner_exercises.ex_002() == "c"
+        self.assertTrue(passed)
+        if passed:
+            self.score += 1
             
 
 
