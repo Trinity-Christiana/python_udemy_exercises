@@ -1,13 +1,13 @@
 # 100 Python Exercises Udemy Course
 ## Total Points - 0
-- [ ] 001 - Variable Updating ![Difficulty Badge](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 002 - Naming Rules
-- [ ] 003 - Compare vs Assign
-- [ ] 004 - TypeError
-- [ ] 005 - Sequence Indexing
-- [ ] 006 - Sequence Slicing
-- [ ] 007 - Sequence Slicing
-- [ ] 008 - Negative Indexing
+- [ ] 001 - Variable Updating ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 002 - Naming Rules ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 003 - Compare vs Assign ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 004 - TypeError ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 005 - Sequence Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 006 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 007 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 008 - Negative Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 009 - Negative Slicing
 - [ ] 010 - Sequence Item Picking
 - [ ] 011 - Ranges
