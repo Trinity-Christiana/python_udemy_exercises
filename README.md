@@ -1,6 +1,6 @@
 # 100 Python Exercises Udemy Course
 ## Total Points - 0
-- [ ] 001 - Variable Updating ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 001 - [Variable Updating](https://github.com/trintiychristiana-eb/python_udemy_exercises/blob/master/exercises/beginner/exercises.py#L1) ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 002 - Naming Rules ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 003 - Compare vs Assign ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 004 - TypeError ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
