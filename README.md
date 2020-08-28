@@ -104,4 +104,4 @@
 ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 ![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-Yellow.svg)
 ![Difficulty Intermediate](https://img.shields.io/badge/Difficulty-Intermediate-Purple.svg)
-![Difficulty Advanced](https://img.shields.io/badge/Difficulty-Advanced-Red.svg)
+![Difficulty Experienced](https://img.shields.io/badge/Difficulty-Experienced-Red.svg)
