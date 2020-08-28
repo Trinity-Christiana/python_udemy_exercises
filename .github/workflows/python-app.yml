@@ -27,3 +27,4 @@ jobs:
     - name: Test with unittest
       run: |
         python exercises/test.py
+        echo "Exited with '$?'"
