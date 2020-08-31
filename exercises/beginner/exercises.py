@@ -9,7 +9,7 @@ def ex_001():
 
 def ex_002():
     """
-    Question: What's wrong with the following script?
+    Question: What's wrong with the following script? (return the correct answer)
         a = 1
         _a = 2
         _a2 = 3
@@ -25,12 +25,19 @@ def ex_002():
 
 def ex_003():
     """
+    a = 1
+    b = 2
+    print(a == b)
+    print(b == c)
+
+    Question: Executing the above code will throw an error. Why? (return the correct answer)
+
+    a - You cannot use == in python
+    b - c is not defined
+    c - a does not equal b
+    d - this will not throw an error
     """
-    pass
-    # a = 1
-    # b = 2
-    # print(a == b)
-    # print(b == c)
+    return "b"
 
 def ex_004():
     """

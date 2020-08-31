@@ -50,6 +50,512 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(passed)
         if passed:
             self.score += 1
+
+    def test_003(self):
+        passed = beginner_exercises.ex_003() == "b"
+        self.assertTrue(passed)
+        if passed:
+            self.score += 1
+
+    # def test_000(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_005(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_000(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_000(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_000(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_000(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+    # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_010(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_020(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+        # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+            # def test_030(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_040(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_050(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_060(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_070(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_080(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_090(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+    # def test_100(self):
+    #     passed = True
+    #     self.assertTrue(passed)
+    #     if passed:
+    #         self.score += 1
+
+
+
             
 
 
