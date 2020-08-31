@@ -9,12 +9,19 @@ def ex_001():
 
 def ex_002():
     """
+    Question: What's wrong with the following script?
+        a = 1
+        _a = 2
+        _a2 = 3
+        2a = 4
+
+    a - You cannot name a variable that starts with _
+    b - You cannot name a variable that contains a number
+    c - You cannot name a variable that starts with a number
+    d - You can only name a variable with letters only
     """
-    pass
-    # a = 1
-    # _a = 2
-    # _a2 = 3
-    # 2a = 4
+    
+    return "c"
 
 def ex_003():
     """
