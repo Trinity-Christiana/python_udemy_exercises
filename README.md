@@ -7,7 +7,7 @@
 - [ ] 005 - Sequence Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 006 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
 - [ ] 007 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 008 - Negative Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
+- [ ] 008 - Negative Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg) 
 - [ ] 009 - Negative Slicing
 - [ ] 010 - Sequence Item Picking
 - [ ] 011 - Ranges

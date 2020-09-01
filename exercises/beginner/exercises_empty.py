@@ -5,7 +5,7 @@ def ex_001():
     a = 2
     a = 4
     a = 6
-    return 18
+    return ""
 def ex_002():
     """
     Question: What's wrong with the following script? (return the correct answer)
@@ -20,7 +20,7 @@ def ex_002():
     d - You can only name a variable with letters only
     """
     
-    return "c"
+    return ""
 def ex_003():
     """
     a = 1
@@ -35,13 +35,13 @@ def ex_003():
     c - a does not equal b
     d - this will not throw an error
     """
-    return "b"
+    return ""
 def ex_004():
     """
     Question: Fix the last line so that it outputs the sum of 1 and 2. Please do not change the first two lines. Only the last one.
     """
     pass
-    a = 1
+    a = "1"
     b = 2
     return (a + b)
 def ex_005():
