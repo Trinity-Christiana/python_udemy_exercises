@@ -13,7 +13,7 @@ class TestStringMethods(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         print("\ntests run: " + str(cls.amount))
-        # print("errors: " + str(len(cls.errors)))
+        print("errors: " + str(len(cls.errors)))
         print("failures: " + str(len(cls.failures)))
         print("success: " + str(cls.amount - len(cls.errors) - len(cls.failures)))
         # print("skipped: " + str(len(cls.skipped)))
@@ -41,27 +41,27 @@ class TestStringMethods(unittest.TestCase):
 
     def test_001(self):
         passed = beginner_exercises.ex_001() == 18
-        self.assertTrue(passed)
+        self.assertEqual(beginner_exercises.ex_001() , 18)
         if passed:
             self.score += 1
 
     def test_002(self):
         passed = beginner_exercises.ex_002() == "c"
-        self.assertTrue(passed)
+        self.assertEqual(beginner_exercises.ex_002() , "c")
         if passed:
             self.score += 1
 
     def test_003(self):
         passed = beginner_exercises.ex_003() == "b"
-        self.assertTrue(passed)
+        self.assertEqual(beginner_exercises.ex_003() , "b")
         if passed:
             self.score += 1
 
-    # def test_000(self):
-    #     passed = True
-    #     self.assertTrue(passed)
-    #     if passed:
-    #         self.score += 1
+    def test_004(self):
+        passed = beginner_exercises.ex_004() == 3
+        self.assertEqual(beginner_exercises.ex_004(), 3)
+        if passed:
+            self.score += 1
 
     # def test_005(self):
     #     passed = True
