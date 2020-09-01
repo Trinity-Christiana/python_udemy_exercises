@@ -41,9 +41,9 @@ def ex_004():
     Question: Fix the last line so that it outputs the sum of 1 and 2. Please do not change the first two lines. Only the last one.
     """
     pass
-    a = 1
+    a = "1"
     b = 2
-    return (a + b)
+    return (int(a) + b)
 def ex_005():
     """
     """
