@@ -40,27 +40,31 @@ class TestStringMethods(unittest.TestCase):
         unittest.TestCase.run(self, result) # call superclass run method
 
     def test_001(self):
-        passed = beginner_exercises.ex_001() == 18
-        self.assertEqual(beginner_exercises.ex_001() , 18)
-        if passed:
+        actual_answer = beginner_exercises.ex_001()
+        expected_answer = 18
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
             self.score += 1
 
     def test_002(self):
-        passed = beginner_exercises.ex_002() == "c"
-        self.assertEqual(beginner_exercises.ex_002() , "c")
-        if passed:
+        actual_answer = beginner_exercises.ex_002()
+        expected_answer = "c"
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
             self.score += 1
 
     def test_003(self):
-        passed = beginner_exercises.ex_003() == "b"
-        self.assertEqual(beginner_exercises.ex_003() , "b")
-        if passed:
+        actual_answer = beginner_exercises.ex_003()
+        expected_answer = "b"
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
             self.score += 1
 
     def test_004(self):
-        passed = beginner_exercises.ex_004() == 3
-        self.assertEqual(beginner_exercises.ex_004(), 3)
-        if passed:
+        actual_answer = beginner_exercises.ex_004()
+        expected_answer = 3
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
             self.score += 1
 
     def test_005(self):
@@ -70,7 +74,7 @@ class TestStringMethods(unittest.TestCase):
         if actual_answer == expected_answer:
             self.score += 1
 
-    def test_006(self):
+    # def test_006(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
@@ -111,55 +115,61 @@ class TestStringMethods(unittest.TestCase):
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_010(self):
+    # def test_010(self):
+        # actual_answer = beginner_exercises.ex_000()
+        # expected_answer = 
+        # self.assertEqual(actual_answer, expected_answer)
+        # if actual_answer == expected_answer:
+        #     self.score += 1
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
@@ -177,109 +187,103 @@ class TestStringMethods(unittest.TestCase):
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_020(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_020(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-        # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-            # def test_030(self):
-        # actual_answer = beginner_exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
-            # def test_030(self):
+    # def test_030(self):
         # actual_answer = beginner_exercises.ex_000()
         # expected_answer = 
         # self.assertEqual(actual_answer, expected_answer)
@@ -651,11 +655,6 @@ class TestStringMethods(unittest.TestCase):
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
-
-
-
-            
-
 
 if __name__ == '__main__':
     unittest.main()
