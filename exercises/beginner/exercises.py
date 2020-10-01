@@ -101,6 +101,15 @@ def ex_013():
     """
     my_range = range(1, 21)
     return ""
+def ex_014():
+    """
+    Question: Complete the script so that it removes duplicate items from list a
+    """
+    a = ["1", 1, "1", 2]
+    # Add solution below
+
+    # Add solution above
+    return a
 def ex_015():
     """
     """
