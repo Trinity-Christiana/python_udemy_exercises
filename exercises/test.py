@@ -118,7 +118,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_012(self):
         actual_answer = beginner_exercises.ex_012()
-        expected_answer = 
+        expected_answer = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
         self.assertEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
