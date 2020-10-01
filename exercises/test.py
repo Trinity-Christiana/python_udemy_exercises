@@ -104,7 +104,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_010(self):
         actual_answer = beginner_exercises.ex_010()
-        expected_answer = 
+        expected_answer = ['a', 'c', 'e', 'g', 'i']
         self.assertEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
