@@ -81,12 +81,12 @@ class TestStringMethods(unittest.TestCase):
         if actual_answer == expected_answer:
             self.score += 1
 
-    # def test_000(self):
-        # actual_answer = beginner_exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
+    def test_007(self):
+        actual_answer = beginner_exercises.ex_007()
+        expected_answer = ['a', 'b', 'c']
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 1
 
     # def test_000(self):
         # actual_answer = beginner_exercises.ex_000()

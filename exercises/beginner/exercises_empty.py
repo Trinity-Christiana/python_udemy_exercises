@@ -51,14 +51,18 @@ def ex_005():
     return ""
 def ex_006():
     """
-    Question: Please complete the script so that it prints out a list slice containing items d , e , and f .
+    Question: Please complete the script so that it returns a list slice containing items d , e , and f .
     """
     letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     return ""
 def ex_007():
     """
+    Question: List slicing is important in various data manipulation activities. Let's do a few more exercises on that.
+
+    Please complete the script so that it returns the first three items of list letters.
     """
-    pass
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return ""
 def ex_008():
     """
     """
