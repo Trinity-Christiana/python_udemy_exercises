@@ -125,7 +125,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_013(self):
         actual_answer = beginner_exercises.ex_013()
-        expected_answer = 
+        expected_answer = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
         self.assertEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
