@@ -63,11 +63,12 @@ class TestStringMethods(unittest.TestCase):
         if passed:
             self.score += 1
 
-    # def test_005(self):
-    #     passed = True
-    #     self.assertTrue(passed)
-    #     if passed:
-    #         self.score += 1
+    def test_005(self):
+        passed = beginner_exercises.ex_005() == 'b'
+        self.assertTrue(passed)
+        if passed:
+            self.score += 1
+
     # def test_000(self):
     #     passed = True
     #     self.assertTrue(passed)

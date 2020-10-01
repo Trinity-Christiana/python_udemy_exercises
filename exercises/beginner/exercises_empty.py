@@ -40,14 +40,15 @@ def ex_004():
     """
     Question: Fix the last line so that it outputs the sum of 1 and 2. Please do not change the first two lines. Only the last one.
     """
-    pass
     a = "1"
     b = 2
     return (a + b)
 def ex_005():
     """
+    Question: Complete the script so that it returns the second item of the list.
     """
-    pass
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return ""
 def ex_006():
     """
     """

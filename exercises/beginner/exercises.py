@@ -46,8 +46,10 @@ def ex_004():
     return (int(a) + b)
 def ex_005():
     """
+    Question: Complete the script so that it returns the second item of the list.
     """
-    pass
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return letters[1]
 def ex_006():
     """
     """
