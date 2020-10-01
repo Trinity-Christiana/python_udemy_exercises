@@ -83,8 +83,9 @@ def ex_010():
     return ""
 def ex_011():
     """
+    Return a list from 1-20 using Range.
     """
-    pass
+    return ""
 def ex_012():
     """
     """
