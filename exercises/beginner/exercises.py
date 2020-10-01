@@ -53,9 +53,9 @@ def ex_005():
 def ex_006():
     """
     Question: Please complete the script so that it prints out a list slice containing items d , e , and f .
-    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
     """
-    return ""
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return letters[3:6]
 def ex_007():
     """
     """
