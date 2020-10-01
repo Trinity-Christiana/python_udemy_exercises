@@ -72,8 +72,10 @@ def ex_008():
     return letters[-2]
 def ex_009():
     """
+    Question: Complete the script so that it returns a list slice containing the last three items of list letters .
     """
-    pass
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return ""
 def ex_011():
     """
     """
