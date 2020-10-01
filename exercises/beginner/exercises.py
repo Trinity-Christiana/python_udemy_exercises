@@ -66,8 +66,10 @@ def ex_007():
     return letters[:3]
 def ex_008():
     """
+    Question: Complete the script so that it returns letter i using negative indexing.
     """
-    pass
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    return letters[-2]
 def ex_009():
     """
     """
