@@ -133,7 +133,7 @@ class TestStringMethods(unittest.TestCase):
     def test_014(self):
         actual_answer = beginner_exercises.ex_014()
         expected_answer = ['1', 2, 1]
-        self.assertEqual(actual_answer, expected_answer)
+        self.assertCountEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 2
 
