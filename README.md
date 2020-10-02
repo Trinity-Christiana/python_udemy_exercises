@@ -1,19 +1,19 @@
 # 100 Python Exercises Udemy Course
-## Total Points - 0
-- [ ] 001 - [Variable Updating](./exercises/beginner/exercises.py#L1) ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 002 - [Naming Rules](./exercises/beginner/exercises.py#L10) ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 003 - Compare vs Assign ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 004 - TypeError ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 005 - Sequence Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 006 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 007 - Sequence Slicing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-- [ ] 008 - Negative Indexing ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg) 
-- [ ] 009 - Negative Slicing
-- [ ] 010 - Sequence Item Picking
-- [ ] 011 - Ranges
-- [ ] 012 - More Ranges
-- [ ] 013 - Ranges of Strings
-- [ ] 014 - Removing Duplicates
+## Total Points - 15
+- [X] 001 - Variable Updating
+- [X] 002 - Naming Rules 
+- [X] 003 - Compare vs Assign 
+- [X] 004 - TypeError
+- [X] 005 - Sequence Indexing 
+- [X] 006 - Sequence Slicing 
+- [X] 007 - Sequence Slicing
+- [X] 008 - Negative Indexing
+- [X] 009 - Negative Slicing
+- [X] 010 - Sequence Item Picking
+- [X] 011 - Ranges
+- [X] 012 - More Ranges
+- [X] 013 - Ranges of Strings
+- [X] 014 - Removing Duplicates
 - [ ] 015 - Simple Dictionary
 - [ ] 016 - Accessing Dictionary Items
 - [ ] 017 - Dictionary Items Sum Up
@@ -101,7 +101,7 @@
 - [ ] 099 - Data Writer Web App
 - [ ] 100 - Username and Password Checker Web App
 
-![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg)
-![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-Yellow.svg)
-![Difficulty Intermediate](https://img.shields.io/badge/Difficulty-Intermediate-Purple.svg)
-![Difficulty Experienced](https://img.shields.io/badge/Difficulty-Experienced-Red.svg)
+<!-- ![Difficulty Beginner](https://img.shields.io/badge/Difficulty-Beginner-GREEN.svg) -->
+<!-- ![Difficulty Easy](https://img.shields.io/badge/Difficulty-Easy-Yellow.svg) -->
+<!-- ![Difficulty Intermediate](https://img.shields.io/badge/Difficulty-Intermediate-Purple.svg) -->
+<!-- ![Difficulty Experienced](https://img.shields.io/badge/Difficulty-Experienced-Red.svg) -->
