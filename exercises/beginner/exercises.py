@@ -75,39 +75,50 @@ def ex_009():
     Question: Complete the script so that it returns a list slice containing the last three items of list letters .
     """
     letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
-    return ""
+    return letters[-3:]
 def ex_010():
     """
     Question: Complete the script so that it returns a list slice containing letters a, c, e, g, and i. 
     """
     letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
-    return ""
+    return letters[::2]
 def ex_011():
     """
     Return a list from 1-20 using Range.
     """
-    return ""
+    return list(range(1, 21))
 def ex_012():
     """
     Question: Complete the script so that it returns the expected output. Please use my_range as input data.
     Expected output: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
     """
     my_range = range(1, 21)
-    return ""
+
+    new_list = []
+    for x in my_range:
+        new_list.append(x * 10)
+
+    return new_list
 def ex_013():
     """
     Question: Complete the script so it returns the expected output using my_range  as input data. Please note that the items of the expected list output are all strings.
     Expected output: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
     """
     my_range = range(1, 21)
-    return ""
+
+    new_list = []
+
+    for x in my_range:
+        new_list.append(f"{x}")
+
+    return new_list
 def ex_014():
     """
     Question: Complete the script so that it removes duplicate items from list a
     """
     a = ["1", 1, "1", 2]
     # Add solution below
-
+    a = list(set(a))
     # Add solution above
     return a
 def ex_015():
@@ -170,6 +181,3 @@ def ex_060():
     """
     """
     pass
-
-
-
