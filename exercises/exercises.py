@@ -198,6 +198,7 @@ def ex_019():
     d["c"] = 3
     return d
 
+
 def ex_020():
     """
     Question: Calculate the sum of all dictionary values anbd return the new value.
@@ -207,3 +208,13 @@ def ex_020():
     d = {"a": 1, "b": 2, "c": 3}
     # Don't change the above lines
     return sum(d.values())
+
+
+def ex_021():
+    """
+    Question: Using dictionary comprehension, filter the dictionary by removing all items with a value of greater than 1. Then return the new dictionary
+    """
+    # Don't change the below lines
+    d = {"a": 1, "b": 2, "c": 3}
+    # Don't change the above lines
+    return {k: v for k, v in d.items() if not v > 1}

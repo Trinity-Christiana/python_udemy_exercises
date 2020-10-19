@@ -1,9 +1,10 @@
 import unittest
 import exercises as exercises
 
+
 class TestStringMethods(unittest.TestCase):
 
-    currentResult = None # holds last result object passed to run method
+    currentResult = None  # holds last result object passed to run method
     score = 0
     @classmethod
     def setResult(cls, amount, errors, failures, skipped, score):
@@ -20,7 +21,7 @@ class TestStringMethods(unittest.TestCase):
         print("Your score: " + str(cls.score))
         level = "Beginner"
 
-        if cls.score > 75 and cls.score <151:
+        if cls.score > 75 and cls.score < 151:
             level = "Intermediate"
         elif cls.score > 150:
             level = "Advanced"
@@ -36,8 +37,8 @@ class TestStringMethods(unittest.TestCase):
         self.setResult(amount, errors, failures, skipped, score)
 
     def run(self, result=None):
-        self.currentResult = result # remember result for use in tearDown
-        unittest.TestCase.run(self, result) # call superclass run method
+        self.currentResult = result  # remember result for use in tearDown
+        unittest.TestCase.run(self, result)  # call superclass run method
 
     def test_001(self):
         actual_answer = exercises.ex_001()
@@ -76,7 +77,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_006(self):
         actual_answer = exercises.ex_006()
-        expected_answer = ['d', 'e', 'f'] 
+        expected_answer = ['d', 'e', 'f']
         self.assertListEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
@@ -111,21 +112,24 @@ class TestStringMethods(unittest.TestCase):
 
     def test_011(self):
         actual_answer = exercises.ex_011()
-        expected_answer = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        expected_answer = [1, 2, 3, 4, 5, 6, 7, 8, 9,
+                           10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
         self.assertListEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
 
     def test_012(self):
         actual_answer = exercises.ex_012()
-        expected_answer = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
+        expected_answer = [10, 20, 30, 40, 50, 60, 70, 80, 90,
+                           100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
         self.assertListEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
 
     def test_013(self):
         actual_answer = exercises.ex_013()
-        expected_answer = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+        expected_answer = ['1', '2', '3', '4', '5', '6', '7', '8', '9',
+                           '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
         self.assertListEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 2
@@ -169,7 +173,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_019(self):
         actual_answer = exercises.ex_019()
-        expected_answer = {'a': 1, 'c': 3, 'b': 2} 
+        expected_answer = {'a': 1, 'c': 3, 'b': 2}
         self.assertDictEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 2
@@ -181,492 +185,494 @@ class TestStringMethods(unittest.TestCase):
         if actual_answer == expected_answer:
             self.score += 2
 
+    def test_021(self):
+        actual_answer = exercises.ex_021()
+        expected_answer = {'a': 1}
+        self.assertDictEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 2
+
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
-    # def test_020(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
-    # def test_020(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
+        # self.assertEqual(actual_answer, expected_answer)
+        # if actual_answer == expected_answer:
+        #     self.score += 1
+    # def test_020(self):
+        # actual_answer = exercises.ex_000()
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_030(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_040(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_050(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_060(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_070(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_080(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_090(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
     # def test_100(self):
         # actual_answer = exercises.ex_000()
-        # expected_answer = 
+        # expected_answer =
         # self.assertEqual(actual_answer, expected_answer)
         # if actual_answer == expected_answer:
         #     self.score += 1
+
 
 if __name__ == '__main__':
     unittest.main()

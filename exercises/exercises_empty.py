@@ -196,10 +196,11 @@ def ex_020():
 
 def ex_021():
     """
+    Question: Using dictionary comprehension, filter the dictionary by removing all items with a value of greater than 1. Then return the new dictionary
     """
     # Don't change the below lines
+    d = {"a": 1, "b": 2, "c": 3}
     # Don't change the above lines
-    pass
 
 
 def ex_022():
