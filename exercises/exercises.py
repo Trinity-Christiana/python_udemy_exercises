@@ -187,3 +187,13 @@ def ex_018():
     # Don't change the above lines
     return d["Surname"]
 
+
+def ex_019():
+    """
+    Question: Add a new pair of key (e.g. c ) and value (e.g. 3 ) to the dictionary and return the new dictionary.
+    """
+    # Don't change the below lines
+    d = {"a": 1, "b": 2}
+    # Don't change the above lines
+    d["c"] = 3
+    return d

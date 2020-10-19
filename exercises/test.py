@@ -167,12 +167,13 @@ class TestStringMethods(unittest.TestCase):
         self.assertMultiLineEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 1
-    # def test_010(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
+
+    def test_019(self):
+        actual_answer = exercises.ex_019()
+        expected_answer = {'a': 1, 'c': 3, 'b': 2} 
+        self.assertDictEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 2
     # def test_010(self):
         # actual_answer = exercises.ex_000()
         # expected_answer = 

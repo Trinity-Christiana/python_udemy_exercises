@@ -177,10 +177,11 @@ def ex_018():
 
 def ex_019():
     """
+    Question: Add a new pair of key (e.g. c ) and value (e.g. 3 ) to the dictionary and return the new dictionary.
     """
     # Don't change the below lines
+    d = {"a": 1, "b": 2}
     # Don't change the above lines
-    pass
 
 
 def ex_020():
