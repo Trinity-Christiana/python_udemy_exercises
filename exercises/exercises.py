@@ -123,61 +123,7 @@ def ex_014():
     return a
 def ex_015():
     """
+    Question: Create a dictionary that contains the keys a  and b  and their respective values 1  and 2. Return it.
     """
-    pass
-def ex_016():
-    """
-    """
-    pass
-def ex_017():
-    """
-    """
-    pass
-def ex_018():
-    """
-    """
-    pass
-def ex_025():
-    """
-    """
-    pass
-def ex_026():
-    """
-    """
-    pass
-def ex_027():
-    """
-    """
-    pass
-def ex_030():
-    """
-    """
-    pass
-def ex_031():
-    """
-    """
-    pass
-def ex_038():
-    """
-    """
-    pass
-def ex_039():
-    """
-    """
-    pass
-def ex_040():
-    """
-    """
-    pass
-def ex_048():
-    """
-    """
-    pass
-def ex_051():
-    """
-    """
-    pass
-def ex_060():
-    """
-    """
-    pass
+    new_dict = {"a":1, "b":2}
+    return new_dict
