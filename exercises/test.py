@@ -146,19 +146,21 @@ class TestStringMethods(unittest.TestCase):
         self.assertIs(actual_answer["b"], 2)
         if actual_answer == expected_answer:
             self.score += 1
-            
-    # def test_010(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
-    # def test_010(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
+
+    def test_016(self):
+        actual_answer = exercises.ex_016()
+        expected_answer = 2
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 1
+
+    def test_017(self):
+        actual_answer = exercises.ex_017()
+        expected_answer = 3
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 1
+
     # def test_010(self):
         # actual_answer = exercises.ex_000()
         # expected_answer = 

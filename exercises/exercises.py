@@ -127,3 +127,20 @@ def ex_015():
     """
     new_dict = {"a":1, "b":2}
     return new_dict
+def ex_016():
+    """
+    Question: Please complete the script so that it returns the value of key b .
+    """
+    # Don't change the below lines
+    d = {"a": 1, "b": 2}
+    # Don't change the above lines
+
+    return d["b"]
+def ex_017():
+    """
+    Question: Calculate and return the sum of the values of keys a  and b .
+    """
+    # Don't change the below lines
+    d = {"a": 1, "b": 2, "c": 3}
+    # Don't change the above lines
+    return d["a"] + d["b"]

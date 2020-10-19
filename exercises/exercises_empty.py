@@ -117,43 +117,67 @@ def ex_015():
     return new_dict
 def ex_016():
     """
+    Question: Please complete the script so that it returns the value of key b .
     """
-    pass
+    # Don't change the below lines
+    d = {"a": 1, "b": 2}
+    # Don't change the above lines
+
+    return ""
 def ex_017():
     """
+    Question: Calculate and return the sum of the values of keys a  and b .
     """
-    pass
+    # Don't change the below lines
+    d = {"a": 1, "b": 2, "c": 3}
+    # Don't change the above lines
 def ex_018():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_019():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_020():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_021():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_022():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_023():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_024():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 def ex_000():
     """
     """
+    # Don't change the below lines
+    # Don't change the above lines
     pass
 
 
