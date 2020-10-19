@@ -218,3 +218,14 @@ def ex_021():
     d = {"a": 1, "b": 2, "c": 3}
     # Don't change the above lines
     return {k: v for k, v in d.items() if not v > 1}
+
+
+def ex_022():
+    """
+    Question: Create a dictionary of keys a, b, c, where each key has a value of a list from 1 to 10, 11 to 20, 21 to 30 respectively and return it.
+    """
+    return {
+        "a": list(range(1, 11)),
+        "b": list(range(11, 21)),
+        "c": list(range(21, 31)),
+    }

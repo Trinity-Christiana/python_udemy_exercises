@@ -205,10 +205,9 @@ def ex_021():
 
 def ex_022():
     """
+    Question: Create a dictionary of keys a, b, c, where each key has a value of a list from 1 to 10, 11 to 20, 21 to 30 respectively and return it.
     """
-    # Don't change the below lines
-    # Don't change the above lines
-    pass
+    return ""
 
 
 def ex_023():
