@@ -197,3 +197,13 @@ def ex_019():
     # Don't change the above lines
     d["c"] = 3
     return d
+
+def ex_020():
+    """
+    Question: Calculate the sum of all dictionary values anbd return the new value.
+
+    """
+    # Don't change the below lines
+    d = {"a": 1, "b": 2, "c": 3}
+    # Don't change the above lines
+    return sum(d.values())

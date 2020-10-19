@@ -1,7 +1,6 @@
 import unittest
 import exercises as exercises
 
-print(exercises)
 class TestStringMethods(unittest.TestCase):
 
     currentResult = None # holds last result object passed to run method
@@ -174,12 +173,14 @@ class TestStringMethods(unittest.TestCase):
         self.assertDictEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 2
-    # def test_010(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer = 
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
+
+    def test_020(self):
+        actual_answer = exercises.ex_020()
+        expected_answer = 6
+        self.assertEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 2
+
     # def test_020(self):
         # actual_answer = exercises.ex_000()
         # expected_answer = 
