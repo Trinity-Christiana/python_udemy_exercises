@@ -215,12 +215,17 @@ class TestStringMethods(unittest.TestCase):
         if actual_answer == expected_answer:
             self.score += 2
 
-    # def test_020(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer =
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
+    def test_024(self):
+        actual_answer = exercises.ex_024()
+        answer = self.assertIn(
+            "b has value [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]", actual_answer)
+        self.assertIn(
+            "c has value [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]", actual_answer)
+        self.assertIn(
+            "a has value [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]", actual_answer)
+
+        self.score += 2
+
     # def test_020(self):
         # actual_answer = exercises.ex_000()
         # expected_answer =

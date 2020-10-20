@@ -222,10 +222,20 @@ def ex_023():
 
 def ex_024():
     """
+    Question: Please complete the script so that it returns the expected output. (Each line can be on a different line or in one single line)
+    Expected output: 
+        "b has value [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        c has value [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        a has value [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
     """
-    # Don't change the below lines
-    # Don't change the above lines
-    pass
+    d = dict(a=list(range(1, 11)), b=list(
+        range(11, 21)), c=list(range(21, 31)))
+    return_string = ""
+
+    # Add code below this line
+
+    # Add code above this line
+    return return_string
 
 
 def ex_000():

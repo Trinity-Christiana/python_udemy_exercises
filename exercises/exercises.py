@@ -240,3 +240,27 @@ def ex_023():
         range(11, 21)), c=list(range(21, 31)))
     # Don't change the above lines
     return d["b"][2]
+
+
+def ex_024():
+    """
+    Question: Please complete the script so that it returns the expected output. (Each line can be on a different line or in one single line)
+    Expected output: 
+        "b has value [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        c has value [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        a has value [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    """
+    d = dict(a=list(range(1, 11)), b=list(
+        range(11, 21)), c=list(range(21, 31)))
+    return_string = ""
+
+    # Add code below this line
+    for k, v in d.items():
+        return_string += (f"{k} has value {v}")
+    # Add code above this line
+
+    return return_string
+
+
+if __name__ == "__main__":
+    pass
