@@ -212,10 +212,12 @@ def ex_022():
 
 def ex_023():
     """
+    Question: Return the third value of key b from the dictionary.
     """
     # Don't change the below lines
+    d = dict(a=list(range(1, 11)), b=list(
+        range(11, 21)), c=list(range(21, 31)))
     # Don't change the above lines
-    pass
 
 
 def ex_024():

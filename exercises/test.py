@@ -204,16 +204,17 @@ class TestStringMethods(unittest.TestCase):
             "c": [
                 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
             ]}
+        self.assertDictEqual(actual_answer, expected_answer)
+        if actual_answer == expected_answer:
+            self.score += 2
+
+    def test_023(self):
+        actual_answer = exercises.ex_023()
+        expected_answer = 13
         self.assertEqual(actual_answer, expected_answer)
         if actual_answer == expected_answer:
             self.score += 2
 
-    # def test_020(self):
-        # actual_answer = exercises.ex_000()
-        # expected_answer =
-        # self.assertEqual(actual_answer, expected_answer)
-        # if actual_answer == expected_answer:
-        #     self.score += 1
     # def test_020(self):
         # actual_answer = exercises.ex_000()
         # expected_answer =
